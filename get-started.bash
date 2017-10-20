@@ -3,10 +3,13 @@
 
 cd /home/jovyan
 
+rmdir work
+rm get-started.bash
+
 # git reflog requires a name and email if user is not in passwd
 # even if you're only cloning
 export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
-git clone https://github.com/HY-TKTL/deep-learning-course-2017.git exercises
+git clone https://github.com/HY-TKTL/deep-learning-course-2017.git .
 
 #pip install requests_oauthlib
