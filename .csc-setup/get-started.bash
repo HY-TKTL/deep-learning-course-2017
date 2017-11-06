@@ -9,3 +9,4 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 git clone https://github.com/HY-TKTL/deep-learning-course-2017.git exercises
 
 rmdir work
+rm get-started.bash
