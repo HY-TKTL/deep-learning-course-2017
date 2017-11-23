@@ -10,3 +10,4 @@ git clone https://github.com/HY-TKTL/deep-learning-course-2017.git exercises
 
 rmdir work
 rm get-started.bash
+pip install imageio h5py
